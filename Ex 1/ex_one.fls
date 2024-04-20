@@ -1,0 +1,30 @@
+PWD c:/Users/swasm/OneDrive/Personal_Stuff/Studium_Documents/SysSec/Exercise 1
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/swasm/OneDrive/Personal_Stuff/Studium_Documents/SysSec/Exercise 1/ex_one.tex
+OUTPUT ex_one.log
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+INPUT c:/texlive/2024/texmf-dist/tex/latex/base/size12.clo
+INPUT c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./ex_one.aux
+INPUT ./ex_one.aux
+INPUT ex_one.aux
+OUTPUT ex_one.aux
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+OUTPUT ex_one.pdf
+INPUT c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT ex_one.aux
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb

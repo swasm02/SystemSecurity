@@ -1,0 +1,4 @@
+\beamer@sectionintoc {1}{Security Requirements}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{the individual security requirements}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{risks arising if they are not fulfilled}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{how to implement these requirements using the security mechanisms of today's standard operating systems}{5}{0}{1}
