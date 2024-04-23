@@ -9,35 +9,88 @@
     {\large Risks, Attacks and Security Goals}\\[0.5ex] 
     Group 3\\
     \vspace{2cm}
-    Stefan Wasmer\\
+    Marcel Bernhardt, Ruben Ehritt, Eric Fiebig, Sabine Lenze, \\Stefan Wasmer, Valentin Schwabe\\
     \vspace{5ex}
     {\large 04/23/2024}\\
+    \vspace{10ex}
+    \tableofcontents
     \vfill
 \end{titlepage}
 
-\section*{Security Requirements}
+\section{The individual Security Requirements}
 \textit{given:} description of security requirements for a hospital information system
-\subsection*{the individual security requirements}
-\begin{enumerate}
-    \item integrity of life-critical data
-    \item confidentiality of patient data / patient records
-    \item anonymity of patients and their records
-    \item low risks of new technologies
-\end{enumerate}
+\textit{task:} list the individual security requirements, the risks arising if they are not fulfilled and how to implement these requirements using the security mechanisms of today's standard operating systems
+\vspace{5ex}
+\subsection{individual security requirements}
+\begin{itemize}
+    \item non-repudiability (integrity \& authenticity) of life-critical data
+    \item \textit{CIA} of patient data / patient records / medical data bases / medical documents
+    \item anonymity of patients and their records for research purposes
+    \item integrity / availabilty of technical systems
+    \item secure communication between different medical institutions
+    \vspace{4ex}
+    \item[CIA] \textbf{C}onfidentiality, \textbf{I}ntegrity, \textbf{A}vailability 
+\end{itemize}
 
-\subsection*{risks arising if they are not fulfilled}
-\begin{enumerate}
+\newpage
+\subsection{risks}
+\begin{itemize}
     \item incorrect treatment of patients and because of that possible harm to patients
-    \item unauthorized access to patient data 
+    \begin{itemize}
+        \item wrong dosage of medication
+        \item no medication at all
+    \end{itemize}
+     \item unauthorized access to patient data 
+    \begin{itemize}
+        \item exfiltration of data for ransom, blackmailing and selling
+        \item manipulation of data
+        \begin{itemize}
+            \item getting access to medication like pain killers / opioids
+        \end{itemize}
+        \item usage of data in order to harm patients\\ for example:
+        \begin{itemize}
+            \item knowledge of a patient's allergies
+            \item changing a patient's blood type
+        \end{itemize}
+    \end{itemize}
     \item serious consequences for medical practice and patients
-\end{enumerate}
+    \item admission of patients to the hospital is not possible when the \\systems / service are not available
+\end{itemize}
 
-\subsection*{how to implement these requirements using the security mechanisms of today's standard operating systems}
-\begin{enumerate}
+\newpage
+\subsection{implementation}
+\begin{itemize}
     \item electronic authentication and encryption tools
-    \item role-based access control\\
+    \begin{itemize}
+        \item having users with different roles and permissions
+        \item two-factor authentication
+        \item digital signatures
+        \item AQUA Protocol
+    \end{itemize}
+    \item only be able to access data when you are inside the network
+    \begin{itemize}
+        \item VPN
+        \item network segregation with different subnetworks
+    \end{itemize}
+    \item role-based access control \&
             time limitation of permissions
     \item proper anonymisation of patient data
-    \item having backup prodedures 
-\end{enumerate}
+    \begin{itemize}
+        \item k-anonymity in databases
+    \end{itemize}
+    \item having backup procedures
+    \begin{itemize}
+        \item 3-2-1 backup: 3 total backups, 2 different mediums, 1 backup offsite
+    \end{itemize}
+    \item regular security audits and penetration tests
+    \item regular updates of software and hardware
+    \item security for standard attacks
+    \begin{itemize}
+        \item firewalls
+        \item intrusion detection systems
+        \item antivirus software
+        \item buffer overflow protection
+        \item SQL injection protection
+    \end{itemize}
+\end{itemize}
 \end{document}
